@@ -1,0 +1,500 @@
+/* Small Mobile */
+@media (min-width: 320px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .container {
+    width: 95%;
+  }
+  /* -------------- Header -------------- */
+  /* logo */
+  header .container .logo a {
+    font-size: 22px;
+  }
+  /* nav */
+  .header-nav ul,
+  .header-button {
+    display: none;
+  }
+  /* menu-icon */
+  .menu-icon {
+    padding: 4px;
+    display: block;
+  }
+  /* menu-slider */
+  .slider {
+    width: 260px;
+  }
+  .slider .head span {
+    font-size: 18px;
+  }
+  .slider .head .close-icon {
+    padding: 4px;
+  }
+  .slider-nav ul li a {
+    font-size: 16px;
+  }
+  .slider-button {
+    width: 95%;
+    font-size: 16px;
+    padding-block: 8px;
+  }
+
+  /* -------------- HOME -------------- */
+  /* shapes in background */
+  .home .bg-shapes .shape:nth-child(1) {
+    left: 5px;
+  }
+  .home .bg-shapes .shape:nth-child(2) {
+    left: 140px;
+    bottom: 40px;
+  }
+  .home .bg-shapes .shape:nth-child(3) {
+    right: 40px;
+  }
+  /* container */
+  .home .container {
+    display: block;
+  }
+  /* home-content */
+  .home-content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .home-content span.border-1 {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+  /* title */
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /* paragraph */
+  .home-content p {
+    font-size: 18px;
+  }
+  /* home-btn */
+  .home-btn button {
+    padding-block: 12px;
+    font-size: 16px;
+  }
+  /* home-image */
+  .home-image span {
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+  }
+  .home-image {
+    width: 95%;
+  }
+  .home-image .image {
+    height: 300px;
+    transform: rotate(2deg) translate(0px, 15px);
+  }
+  .home-image .image:hover {
+    transform: rotate(2deg) translate(-2px, 13px);
+  }
+
+  /* -------------- LATEST ARTICLES -------------- */
+  .latest-articles {
+    padding-block: 40px;
+  }
+  .latest-articles .container {
+    flex-direction: column;
+  }
+
+  /* scroll */
+  /* title */
+  .scroll .scroll-title span {
+    display: none;
+  }
+  .container .scroll,
+  .container .sticky {
+    position: relative;
+    width: 100%;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .container .sticky {
+    top: 50px;
+    gap: 32px;
+    margin-bottom: 50px;
+  }
+
+  /* card */
+  .scroll .cards {
+    margin-top: 24px;
+  }
+  .scroll .cards .card {
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+  }
+  .scroll .image {
+    width: 160px;
+  }
+  .scroll .content {
+    width: 100%;
+  }
+  /* content */
+  .scroll .content p {
+    font-size: 13px;
+  }
+  .scroll .content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .latest-articles button {
+    width: 80%;
+    padding-block: 8px;
+    font-size: 15px;
+  }
+
+  /* sticky */
+  .sticky h2 {
+    font-size: 18px;
+  }
+  .sticky .card {
+    padding: 24px;
+  }
+  .sticky span {
+    font-size: 24px;
+  }
+  .sticky h3 {
+    font-size: 13px;
+  }
+  .sticky p {
+    font-size: 10px;
+  }
+  .sticky ul li {
+    font-size: 12px;
+  }
+}
+
+/* Medium Mobile */
+@media (min-width: 480px) {
+  h3 {
+    font-size: 24px;
+  }
+  .container {
+    width: 90%;
+  }
+  /* -------------- Header -------------- */
+  /* logo */
+  header .container .logo a {
+    font-size: 30px;
+  }
+  /* menu-icon */
+  .menu-icon {
+    padding: 8px;
+  }
+  /* menu-slider */
+  .slider {
+    width: 320px;
+  }
+  .slider .head span {
+    font-size: 24px;
+  }
+  .slider .head .close-icon {
+    padding: 8px;
+  }
+  .slider-nav ul li a {
+    font-size: 20px;
+  }
+  .slider-button {
+    width: 100%;
+    font-size: 18px;
+    padding-block: 12px;
+  }
+
+  /* -------------- HOME -------------- */
+  /* home-content */
+  .home-content span.border-1 {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+  /* title */
+  h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  /* paragraph */
+  .home-content p {
+    font-size: 24px;
+  }
+  /* home-btn */
+  .home-btn button {
+    padding-block: 16px;
+    font-size: 20px;
+  }
+  /* home-image */
+  .home-image span {
+    top: -10px;
+    right: -15px;
+    font-size: 16px;
+  }
+  .home-image {
+    width: 100%;
+  }
+  .home-image .image {
+    height: 300px;
+    transform: rotate(2deg) translate(0px, 15px);
+  }
+  .home-image .image:hover {
+    transform: rotate(2deg) translate(-2px, 13px);
+  }
+
+  /* -------------- LATEST ARTICLES -------------- */
+
+  /* card */
+  .scroll .content {
+    width: 100%;
+  }
+
+  /* content */
+  .scroll .content p {
+    font-size: 16px;
+  }
+  .scroll .content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .latest-articles button {
+    padding-block: 12px;
+    font-size: 18px;
+  }
+
+  /* sticky */
+  .sticky h2 {
+    font-size: 24px;
+  }
+  .sticky span {
+    font-size: 32px;
+  }
+  .sticky h3 {
+    font-size: 16px;
+  }
+  .sticky p {
+    font-size: 12px;
+  }
+  .sticky ul li {
+    font-size: 14px;
+  }
+
+  /* -------------- COMMUNITY -------------- */
+  .community button {
+    font-size: 18px;
+  }
+}
+
+/* Large Mobile */
+@media (min-width: 768px) {
+  /* -------------- HOME -------------- */
+  /* title */
+  h1 {
+    font-size: 72px;
+    line-height: 90px;
+  }
+  /* home-image */
+  .home-image span {
+    top: -5px;
+    right: -20px;
+  }
+  .home-image {
+    width: 100%;
+  }
+  .home-image .image {
+    height: 400px;
+  }
+
+  /* -------------- LATEST ARTICLES -------------- */
+
+  h2 {
+    font-size: 40px;
+  }
+  .scroll .scroll-title span {
+    display: block;
+  }
+  .scroll .cards .card {
+    padding: 32px;
+  }
+  /* content */
+  .scroll .content p {
+    font-size: 18px;
+  }
+  .scroll .content ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .latest-articles button {
+    padding-block: 12px;
+    font-size: 18px;
+  }
+
+  /* sticky */
+  .sticky .card {
+    padding: 32px;
+  }
+  .sticky h2 {
+    font-size: 30px;
+  }
+  .sticky span {
+    font-size: 36px;
+  }
+  .sticky h3 {
+    font-size: 18px;
+  }
+  .sticky p {
+    font-size: 14px;
+  }
+  .sticky ul li {
+    font-size: 16px;
+  }
+  /* -------------- COMMUNITY -------------- */
+  .community button {
+    font-size: 24px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+  /* -------------- HOME -------------- */
+  /* shapes in background */
+  .home .bg-shapes .shape:nth-child(1) {
+    left: 50px;
+    top: 60px;
+  }
+  .home .bg-shapes .shape:nth-child(2) {
+    left: 650px;
+    bottom: 60px;
+  }
+  .home .bg-shapes .shape:nth-child(3) {
+    right: 100px;
+    top: 150px;
+  }
+  /* container */
+  .home .container {
+    display: flex;
+  }
+  /* home-content */
+  .home-content,
+  .home-image {
+    width: 47%;
+  }
+  /* title */
+  h1 {
+    font-size: 65px;
+  }
+
+  /* -------------- LATEST ARTICLES -------------- */
+  h2 {
+    font-size: 48px;
+  }
+  .scroll .image {
+    width: 200px;
+  }
+  .latest-articles .container {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .categories {
+    padding: 0;
+  }
+  footer .grid {
+    gap: 80px;
+  }
+  .span-div{
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1280px) {
+  /* ---------- Header ---------- */
+  /* nav */
+  .header-nav ul {
+    display: flex;
+  }
+  .header-button {
+    display: block;
+  }
+  /* menu-icon */
+  .menu-icon {
+    display: none;
+  }
+  /* -------------- HOME -------------- */
+  /* home-content */
+  .home-content,
+  .home-image {
+    position: relative;
+    width: 47%;
+  }
+  /* title */
+  h1 {
+    font-size: 72px;
+  }
+  /* home-image */
+  .home-image span {
+    top: -50px;
+    right: -25px;
+    font-size: 16px;
+  }
+  .home-image .image {
+    height: 400px;
+    transform: rotate(2deg) translate(0px, -24px);
+  }
+  .home-image .image:hover {
+    transform: rotate(2deg) translate(-2px, -26px);
+  }
+  /* -------------- LATEST ARTICLES -------------- */
+  .latest-articles {
+    padding-block: 80px;
+  }
+  .latest-articles .container {
+    flex-direction: row;
+    width: 90%;
+  }
+  .container .scroll {
+    width: 62%;
+  }
+  .scroll .cards .card {
+    flex-direction: row;
+  }
+  .latest-articles button {
+    width: 40%;
+  }
+  .container .sticky {
+    width: 35%;
+    position: sticky;
+    top: 110px;
+  }
+  .scroll .content ul {
+    gap: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1536px) {
+  .container {
+    width: 1280px;
+  }
+  .latest-articles .container {
+    width: 80%;
+  }
+  .scroll .content ul {
+    gap: 32px;
+  }
+}
